@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Personal portfolio page for Nesstle05.">
+  <title>Nesstle05 | Personal Page</title>
+  <link rel="preconnect" href="https://avatars.githubusercontent.com">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="Nesstle05 home">
+      <span class="brand-mark">N</span>
+      <span>Nesstle05</span>
+    </a>
+    <nav aria-label="Primary navigation">
+      <a href="#about">About</a>
+      <a href="#work">Work</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <button class="theme-toggle" type="button" aria-label="Switch theme" title="Switch theme">
+      <span aria-hidden="true">◐</span>
+    </button>
+  </header>
+
+  <main id="top">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow">Student Developer</p>
+        <h1 id="hero-title">Hi, I am Nesstle05.</h1>
+        <p class="intro">
+          I build clean, useful web experiences and keep learning how software can make everyday work simpler.
+        </p>
+        <div class="hero-actions" aria-label="Primary links">
+          <a class="button primary" href="#projects">View Projects</a>
+          <a class="button secondary" href="https://github.com/Nesstle05">GitHub Profile</a>
+        </div>
+      </div>
+
+      <div class="profile-panel" aria-label="Profile summary">
+        <img src="https://github.com/Nesstle05.png" alt="Nesstle05 GitHub profile avatar" class="avatar">
+        <div>
+          <p class="panel-kicker">Current Focus</p>
+          <p>Web development, interface design, and practical problem solving.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="content-section" id="about" aria-labelledby="about-title">
+      <div class="section-label">About</div>
+      <div class="section-body">
+        <h2 id="about-title">Curious, careful, and always building.</h2>
+        <p>
+          I enjoy turning ideas into organized, responsive websites. My work combines clear structure, thoughtful visual design, and simple interactions that make a page feel finished.
+        </p>
+        <p>
+          This page is hosted with GitHub Pages and can grow into a portfolio with coursework, experiments, and future projects.
+        </p>
+      </div>
+    </section>
+
+    <section class="content-section timeline-section" id="work" aria-labelledby="work-title">
+      <div class="section-label">Work</div>
+      <div class="section-body">
+        <h2 id="work-title">What I like working on</h2>
+        <div class="timeline">
+          <article>
+            <span class="timeline-dot" aria-hidden="true"></span>
+            <h3>Front-end Development</h3>
+            <p>Responsive layouts, accessible markup, and interfaces that feel smooth across devices.</p>
+          </article>
+          <article>
+            <span class="timeline-dot" aria-hidden="true"></span>
+            <h3>Problem Solving</h3>
+            <p>Breaking tasks into clear steps, testing assumptions, and improving the result through iteration.</p>
+          </article>
+          <article>
+            <span class="timeline-dot" aria-hidden="true"></span>
+            <h3>Continuous Learning</h3>
+            <p>Exploring new tools, improving code quality, and building small projects that teach something real.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="projects-band" id="projects" aria-labelledby="projects-title">
+      <div class="projects-heading">
+        <div class="section-label">Projects</div>
+        <h2 id="projects-title">Selected work</h2>
+      </div>
+      <div class="project-grid">
+        <article class="project-card">
+          <p class="project-type">Personal Website</p>
+          <h3>GitHub Pages Portfolio</h3>
+          <p>A responsive personal page built with HTML, CSS, and JavaScript, designed to be simple to maintain.</p>
+          <a href="https://github.com/Nesstle05/Nesstle05.github.io">Repository</a>
+        </article>
+        <article class="project-card">
+          <p class="project-type">Course Project</p>
+          <h3>Interactive Web Page</h3>
+          <p>A place to feature a class assignment, lab project, or experiment with screenshots and notes.</p>
+          <a href="https://github.com/Nesstle05?tab=repositories">Repositories</a>
+        </article>
+        <article class="project-card">
+          <p class="project-type">Learning Log</p>
+          <h3>Code Experiments</h3>
+          <p>Small builds that practice layout, JavaScript behavior, APIs, and clean presentation.</p>
+          <a href="https://github.com/Nesstle05?tab=repositories">More on GitHub</a>
+        </article>
+      </div>
+    </section>
+
+    <section class="content-section contact-section" id="contact" aria-labelledby="contact-title">
+      <div class="section-label">Contact</div>
+      <div class="section-body">
+        <h2 id="contact-title">Let us connect.</h2>
+        <p>
+          The fastest way to find my work is through GitHub. This section can also include an email, LinkedIn profile, or resume link later.
+        </p>
+        <div class="contact-links">
+          <a class="button primary" href="https://github.com/Nesstle05">GitHub</a>
+          <a class="button secondary" href="https://github.com/Nesstle05?tab=repositories">Repositories</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; <span id="year"></span> Nesstle05. Built with GitHub Pages.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
